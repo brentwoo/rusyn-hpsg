@@ -1,0 +1,117 @@
+
+version=28
+
+section=general
+language=Rusyn
+iso-code=rue
+punctuation-chars=discard-all
+archive=yes
+vcs=git
+
+section=word-order
+word-order=free
+has-dets=yes
+noun-det-order=det-noun
+has-aux=no
+
+section=number
+  number1_name=singular
+  number2_name=plural
+
+section=person
+person=1-2-3
+first-person=none
+
+section=gender
+  gender1_name=masculine
+  gender2_name=feminine
+  gender3_name=neuter
+
+section=case
+case-marking=nom-acc
+nom-acc-nom-case-name=nominative
+nom-acc-acc-case-name=accusative
+
+section=direct-inverse
+scale-equal=direct
+
+section=tense-aspect-mood
+
+section=other-features
+
+section=sentential-negation
+
+section=coordination
+
+section=matrix-yes-no
+
+section=info-str
+
+section=arg-opt
+
+section=lexicon
+  noun1_name=common
+    noun1_feat1_name=gender
+    noun1_feat1_value=feminine
+  noun1_det=imp
+    noun1_stem1_orth=knizh
+    noun1_stem1_pred=_book_n_rel
+  noun2_name=pronoun
+  noun2_det=imp
+    noun2_stem1_orth=vin
+    noun2_stem1_pred=_pron_n_rel
+    noun2_stem2_orth=my
+    noun2_stem2_pred=_pron_n_rel
+  verb1_name=trans
+  verb1_valence=nom-acc
+    verb1_stem1_orth=chita
+    verb1_stem1_pred=_read_v_rel
+  verb2_name=intrans
+  verb2_valence=nom
+    verb2_stem1_orth=vecherja
+    verb2_stem1_pred=_dine_v_rel
+
+section=morphology
+  noun-pc1_name=case
+  noun-pc1_obligatory=on
+  noun-pc1_order=suffix
+  noun-pc1_inputs=noun
+    noun-pc1_lrt1_name=acc
+      noun-pc1_lrt1_feat1_name=case
+      noun-pc1_lrt1_feat1_value=acc
+      noun-pc1_lrt1_lri1_inflecting=yes
+      noun-pc1_lrt1_lri1_orth=u
+    noun-pc1_lrt2_name=nom
+      noun-pc1_lrt2_feat1_name=case
+      noun-pc1_lrt2_feat1_value=nom
+      noun-pc1_lrt2_lri1_inflecting=no
+  verb-pc1_name=agree
+  verb-pc1_obligatory=on
+  verb-pc1_order=suffix
+  verb-pc1_inputs=verb
+    verb-pc1_lrt1_name=1pl
+      verb-pc1_lrt1_feat1_name=number
+      verb-pc1_lrt1_feat1_value=plural
+      verb-pc1_lrt1_feat1_head=subj
+      verb-pc1_lrt1_feat2_name=person
+      verb-pc1_lrt1_feat2_value=1st
+      verb-pc1_lrt1_feat2_head=subj
+      verb-pc1_lrt1_lri1_inflecting=yes
+      verb-pc1_lrt1_lri1_orth=jeme
+    verb-pc1_lrt2_name=3sg
+      verb-pc1_lrt2_feat1_name=number
+      verb-pc1_lrt2_feat1_value=singular
+      verb-pc1_lrt2_feat1_head=subj
+      verb-pc1_lrt2_feat2_name=person
+      verb-pc1_lrt2_feat2_value=3rd
+      verb-pc1_lrt2_feat2_head=subj
+      verb-pc1_lrt2_lri1_inflecting=yes
+      verb-pc1_lrt2_lri1_orth=je
+
+section=toolbox-import
+
+section=test-sentences
+
+section=gen-options
+
+section=ToolboxLexicon

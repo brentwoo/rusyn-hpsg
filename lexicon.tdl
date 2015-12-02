@@ -1,0 +1,26 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+knizhk := common-noun-lex &
+  [ STEM < "knizhk" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_book_n_rel" ].
+
+vin := pronoun-noun-lex &
+  [ STEM < "vin" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pron_n_rel" ].
+
+my := pronoun-noun-lex &
+  [ STEM < "my" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pron_n_rel" ].
+
+;;; Adjectives
+
+;;; Verbs
+
+chita := trans-verb-lex &
+  [ STEM < "chita" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_read_v_rel" ].
+
+vecherja := intrans-verb-lex &
+  [ STEM < "vecherja" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dine_v_rel" ].

@@ -1,0 +1,14 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Inflecting Lexical Rule Instances
+
+acc-suffix :=
+%suffix (* u)
+acc-lex-rule.
+
+1pl-suffix :=
+%suffix (* jeme)
+1pl-lex-rule.
+
+3sg-suffix :=
+%suffix (* je)
+3sg-lex-rule.
