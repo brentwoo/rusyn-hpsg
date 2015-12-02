@@ -1,0 +1,40 @@
+Language: Rusyn
+Language code: rue
+Lines: translit translit-seg gloss translat>
+Author: Brent Woo
+Date: Dec 1, 2015
+Source a: Pugh, Stefan M. 2009. The Rusyn Language: A Grammar of the Literary Standard of Slovakia with Reference to Lemko and Subcarpathian Rusyn. Lincom Europa
+Source b: Magocsi, Paul R. 1976 [2014]. Let's Speak Rusyn. Transworld Publishers
+
+
+### Word order
+# 1 
+Source: a:204
+Vetted: t
+Judgment: g
+Phenomena: wo
+vin chitaje knizhku
+vin chita-je knizhk-u
+he.NOM read-3sg book-ACC
+`He is reading a book.'
+
+# 2 intrans pre
+Source: b:33
+Vetted: t
+Judgment: g
+Phenomena: wo
+my vecherjajeme
+my vecherja-jeme
+we.NOM have.supper-1pl
+`We have supper.
+
+# 3 intrans pre
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wo
+vecherjajeme my
+vecherja-jeme my
+have.supper-1pl we.NOM
+`We have supper.
+
