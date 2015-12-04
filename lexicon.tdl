@@ -5,6 +5,10 @@ knizhk := common-noun-lex &
   [ STEM < "knizhk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_book_n_rel" ].
 
+gramatik := common-noun-lex &
+  [ STEM < "gramatik" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_grammar_n_rel" ].
+
 vin := pronoun-noun-lex &
   [ STEM < "vin" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pron_n_rel" ].
